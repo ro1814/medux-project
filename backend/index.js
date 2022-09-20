@@ -3,7 +3,7 @@ import dotenv from 'dotenv';
 import cors from 'cors';
 import bodyParser from 'body-parser';
 
-import Connection from './database/db.js';
+import Connection from './database-config/db.js';
 import Routes from './routes/route.js';
 
 const app = express();
