@@ -3,14 +3,14 @@ import { AppBar, Toolbar, styled }  from '@mui/material';
 import { NavLink } from 'react-router-dom';
 
 const Header = styled(AppBar)`
-    background: #111111;
+    background: #0F3460;
     position: static
 `
 
 const Tabs = styled(NavLink)`
     font-size: larger;
     margin-right: 2%;
-    color: inherit;
+    color: #E1FFEE;
     text-decoration: none;
 `
 

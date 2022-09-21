@@ -8,6 +8,8 @@ const Container = styled(FormGroup)`
     margin: 5% auto 0 auto;
     & > div {
         margin-top: 5%
+} & > h4 {
+  text-align: center
 }
 `
 
@@ -52,7 +54,7 @@ const AddUser = () => {
         <Input onChange={(e) => onValueChange(e) } name="phone"></Input>
       </FormControl>
       <FormControl>
-      <Button variant="contained" onClick={ () => addUserDetails() }>Add user</Button>
+      <Button variant="contained" style={{ background:'#42855B' }} onClick={ () => addUserDetails() }>Add user</Button>
       </FormControl>
     </Container>
   );
