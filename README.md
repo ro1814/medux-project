@@ -37,3 +37,22 @@ Requisitos:
 
   -Bundle y compilación
   -CSS
+
+# ¿Cómo levantar el proyecto?
+
+Una vez el repositorio clonado y el proyecto abierto en VisualStudioCode (u otro editor de código) tiene que:
+
+Para levantar el front:
+
+    1)En el terminal o powerShell debe situarse en la carpeta frontend.
+    2)Debe hacer el comando npm install el cual instalará las dependencias del proyecto.
+    3)Una vez finalizada la instalación de las dependencias proceda a levantar el proyecto con el comando npm start
+    4)Una vez el front está levantado se abre de forma automática el explorador de internet que tenga por defecto. De no hacerlo, debe acceder copiando el siguiente link: http://localhost:3000/
+    5)Abra otra terminal/powerShell
+    
+Para levantar el backend:
+
+    1)En el terminal o powerShell debe situarse en la carpeta backend.
+    2)Debe hacer el comando npm install el cual instalará las dependencias del proyecto.
+    3)Una vez finalizada la instalación de las dependencias proceda a renombrar el archivo "renameThisFileTo.env" a ".env" (este se encuentra dentro de la carpeta backend). Es importante renombrar este archivo a .env debido a que están las variables de entorno (Variables a base de datos y demás).
+    4)Proceda a levantar el proyecto con el comando npm start.
